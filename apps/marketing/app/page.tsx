@@ -46,11 +46,11 @@ export default function Home() {
             <div className="font-semibold tracking-tight">LinkTester</div>
           </div>
           <nav className="flex items-center gap-6 text-sm font-medium text-violet-600">
-            <a href="/signin" className="hover:text-violet-800">Login</a>
+            <a href="https://linktester-panel.vercel.app/signin" className="hover:text-violet-800">Login</a>
             <span className="text-neutral-300">|</span>
-            <a href="/signin" className="hover:text-violet-800">Register</a>
+            <a href="https://linktester-panel.vercel.app/signin" className="hover:text-violet-800">Register</a>
             <span className="text-neutral-300">|</span>
-            <a href="#about" className="hover:text-violet-800">About</a>
+            <a href="https://linktester-panel.vercel.app" className="hover:text-violet-800">Panel</a>
           </nav>
         </div>
       </header>
