@@ -271,6 +271,36 @@ export default function Home() {
         </section>
       )}
 
+      {/* Big CTA — go to panel */}
+      <section className="border-t border-neutral-100 bg-gradient-to-b from-white to-violet-50/60">
+        <div className="max-w-4xl mx-auto px-6 py-16 text-center">
+          <h2 className="text-2xl md:text-3xl font-semibold tracking-tight text-neutral-900">
+            Need more than a single check?
+          </h2>
+          <p className="mt-3 text-neutral-600 max-w-xl mx-auto">
+            Bulk-test thousands of URLs at once, watch live queue status, browse
+            history, and see per-domain analytics — all in the panel.
+          </p>
+          <div className="mt-8 flex flex-wrap justify-center gap-3">
+            <a
+              href="https://linktester-panel.vercel.app/signin"
+              className="inline-flex items-center gap-2 rounded-md bg-violet-600 px-6 py-3 text-sm font-semibold text-white hover:bg-violet-700 transition"
+            >
+              Open the panel →
+            </a>
+            <a
+              href="https://linktester-panel.vercel.app/signin"
+              className="inline-flex items-center gap-2 rounded-md border border-neutral-300 bg-white px-6 py-3 text-sm font-semibold text-neutral-900 hover:bg-neutral-50 transition"
+            >
+              Sign in with demo credentials
+            </a>
+          </div>
+          <p className="mt-4 text-xs text-neutral-500">
+            No signup — any email + password works during preview.
+          </p>
+        </div>
+      </section>
+
       {/* Trusted-by strip (placeholder) */}
       <section className="border-t border-neutral-100 bg-neutral-50">
         <div className="max-w-5xl mx-auto px-6 py-10 flex flex-wrap items-center justify-center gap-x-10 gap-y-4 text-sm font-semibold">
